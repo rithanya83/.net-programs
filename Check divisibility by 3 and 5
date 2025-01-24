@@ -1,0 +1,17 @@
+using System;
+class Program46
+{
+    static void Main()
+    {
+        Console.Write("Enter a number: ");
+        int num = int.Parse(Console.ReadLine());
+        if (num % 3 == 0 && num % 5 == 0)
+        {
+            Console.WriteLine($"{num} is divisible by both 3 and 5.");
+        }
+        else
+        {
+            Console.WriteLine($"{num} is not divisible by both 3 and 5.");
+        }
+    }
+}
