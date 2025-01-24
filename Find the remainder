@@ -1,0 +1,12 @@
+using System;
+class Program6
+{
+    static void Main()
+    {
+        Console.Write("Enter numerator: ");
+        int num1 = int.Parse(Console.ReadLine());
+        Console.Write("Enter denominator: ");
+        int num2 = int.Parse(Console.ReadLine());
+        Console.WriteLine($"Remainder: {num1 % num2}");
+    }
+}
