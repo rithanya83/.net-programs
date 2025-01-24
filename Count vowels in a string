@@ -1,0 +1,11 @@
+using System;
+class Program17
+{
+    static void Main()
+    {
+        Console.Write("Enter a string: ");
+        string input = Console.ReadLine();
+        int count = input.Count(c => "aeiouAEIOU".Contains(c));
+        Console.WriteLine($"Number of vowels: {count}");
+    }
+}
