@@ -1,0 +1,14 @@
+using System;
+class Program45
+{
+    static void Main()
+    {
+        Console.Write("Enter a string: ");
+        string str = Console.ReadLine();
+        Console.Write("Enter a character to count: ");
+        char ch = Console.ReadKey().KeyChar;
+        Console.WriteLine();
+        int count = str.Count(c => c == ch);
+        Console.WriteLine($"'{ch}' occurs {count} time(s) in the string.");
+    }
+}
