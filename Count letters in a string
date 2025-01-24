@@ -1,0 +1,11 @@
+using System;
+class Program30
+{
+    static void Main()
+    {
+        Console.Write("Enter a string: ");
+        string input = Console.ReadLine();
+        int wordCount = input.Split(new char[] { ' ', '\t', '\n' }, StringSplitOptions.RemoveEmptyEntries).Length;
+        Console.WriteLine($"Number of words: {wordCount}");
+    }
+}
