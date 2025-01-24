@@ -1,0 +1,20 @@
+using System;
+class Program13
+{
+    static void Main()
+    {
+        Console.Write("Enter a number: ");
+        int num = int.Parse(Console.ReadLine());
+        bool isPrime = true;
+        for (int i = 2; i <= Math.Sqrt(num); i++)
+        {
+            if (num % i == 0)
+            {
+                isPrime = false;
+                break;
+            }
+        }
+        if (num < 2) isPrime = false;
+        Console.WriteLine(isPrime ? $"{num} is a Prime number." : $"{num} is not a Prime number.");
+    }
+}
