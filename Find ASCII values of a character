@@ -1,0 +1,11 @@
+using System;
+class Program50
+{
+    static void Main()
+    {
+        Console.Write("Enter a character: ");
+        char ch = Console.ReadKey().KeyChar;
+        Console.WriteLine();
+        Console.WriteLine($"ASCII value of '{ch}' is: {(int)ch}");
+    }
+}
