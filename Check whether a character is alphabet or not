@@ -1,0 +1,11 @@
+using System;
+class Program44
+{
+    static void Main()
+    {
+        Console.Write("Enter a character: ");
+        char ch = Console.ReadKey().KeyChar;
+        Console.WriteLine();
+        Console.WriteLine(char.IsLetter(ch) ? $"{ch} is an alphabet." : $"{ch} is not an alphabet.");
+    }
+}
