@@ -1,0 +1,11 @@
+using System;
+class Program47
+{
+    static void Main()
+    {
+        Console.Write("Enter a number: ");
+        int num = int.Parse(Console.ReadLine());
+        Console.WriteLine($"Square: {num * num}");
+        Console.WriteLine($"Cube: {num * num * num}");
+    }
+}
